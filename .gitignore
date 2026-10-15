@@ -1,0 +1,21 @@
+# Local configuration, API keys, recipes and generated covers
+/user_data/
+
+# Local agent instructions and task history
+/AGENTS.md
+/.hermes/
+/.opencode/
+/.trae/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and local logs
+.env
+.env.*
+!.env.example
+*.log
